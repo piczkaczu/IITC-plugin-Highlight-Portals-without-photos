@@ -43,7 +43,7 @@ window.plugin.portalPhoto.highlight = function(data) {
   }
 
   if(color !== '') {
-    var params = {fillColor: color, fillOpacity: opa, radius: 20};
+    var params = {fillColor: color, fillOpacity: opa, radius: 10};
     data.portal.setStyle(params);  
   }
  
